@@ -53,7 +53,7 @@ public class TodoService {
             return true;
 
         } else
-            throw new Exceptions("User does not exist");
+            throw new Exceptions("User does not exist and could not be created");
 
     }
 }
